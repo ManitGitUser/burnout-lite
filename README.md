@@ -1,5 +1,5 @@
 
-# BurnOut 🔥 – AI-powered CPU Benchmark Estimator
+# BurnOut Lite 🔥: AI-powered CPU Benchmark Estimator
 
 BurnOut is a lightweight machine learning project that predicts standardized CPU benchmark scores based on system specifications like core/thread count, TDP, and power efficiency.  
 It was developed as part of the final project submission for the AI Using Python summer training program at CDAC Mohali.
@@ -8,7 +8,7 @@ It was developed as part of the final project submission for the AI Using Python
 
 - Predicts Cinebench R23-style CPU performance score
 - Dataset of 1000+ entries cleaned and labeled
-- Trained with Random Forest and XGBoost
+- Trained with Random Forest and Linear Regression
 - Correlation analysis, distribution plots, and visual insights
 
 ## 📁 Folder Structure
@@ -34,6 +34,9 @@ All entries are cleaned and encoded for modeling.
 - Python
 - Pandas, NumPy, Scikit-Learn
 - Matplotlib, Seaborn
+- TensorFlow
+- PSUtil, Py-CPUinfo
+- Plotly
 
 ## 📈 Output
 
