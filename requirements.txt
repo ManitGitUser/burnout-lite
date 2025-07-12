@@ -1,0 +1,14 @@
+Run the below command in your Anaconda Prompt after activating your Python environment:-
+(if you're using any other python notebook environment like - Google Colab or VS Code then run the below command in a separate cell or terminal) 
+
+pip install pandas numpy matplotlib seaborn tensorflow scikit-learn psutil py-cpuinfo plotly
+
+pandas
+numpy
+matplotlib
+seaborn
+tensorflow
+scikit-learn
+psutil
+py-cpuinfo
+plotly
